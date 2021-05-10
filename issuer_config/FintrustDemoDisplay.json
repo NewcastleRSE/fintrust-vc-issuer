@@ -1,0 +1,30 @@
+{
+  "default": {
+    "locale": "en-US",
+    "card": {
+      "title": "Fintrust Demo",
+      "issuedBy": "Fintrust",
+      "backgroundColor": "#000000",
+      "textColor": "#ffffff",
+      "logo": {
+        "uri": "https://didcustomerplayground.blob.core.windows.net/public/VerifiedCredentialExpert_icon.png",
+        "description": "Fintrust Logo"
+      },
+      "description": "Use your verified credential to prove you know all about verifiable credentials."
+    },
+    "consent": {
+      "title": "Do you want to get your Verified Credential?",
+      "instructions": "Sign in with your account to get your card."
+    },
+    "claims": {
+      "vc.credentialSubject.firstName": {
+        "type": "String",
+        "label": "First name"
+      },
+      "vc.credentialSubject.lastName": {
+        "type": "String",
+        "label": "Last name"
+      }
+    }
+  }
+}

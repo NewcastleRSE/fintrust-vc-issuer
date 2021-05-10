@@ -33,8 +33,8 @@ var crypto = new CryptoBuilder()
     .build();
 
 /////////// Set the expected values for the Verifiable Credential
-const credential = 'https://beta.did.msidentity.com/v1.0/3c32ed40-8a10-465b-8ba4-0b1e86882668/verifiableCredential/contracts/VerifiedCredentialExpert';
-const credentialType = ['VerifiedCredentialExpert'];
+const credential = 'https://beta.did.msidentity.com/v1.0/aa8c2bc8-e39f-4269-8f4b-17a44c462adb/verifiableCredential/contracts/FairnessForAll';
+const credentialType = ['FairnessForAll'];
 
 //////////// Main Express server function
 // Note: You'll want to update port values for your setup.

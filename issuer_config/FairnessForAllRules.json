@@ -1,0 +1,19 @@
+{
+  "attestations": {
+    "idTokens": [
+      {
+        "mapping": {
+          "firstName": { "claim": "given_name" },
+          "lastName": { "claim": "family_name" }
+        },
+        "configuration": "https://login.microsoftonline.com/aa8c2bc8-e39f-4269-8f4b-17a44c462adb/v2.0/.well-known/openid-configuration",
+        "client_id": "a89a5315-8f8e-49c5-9b21-afb86f002645",
+        "redirect_uri": "vcclient://openid/"
+      }
+    ]
+  },
+  "validityInterval": 2592000,
+  "vc": {
+    "type": ["FairnessForAll"]
+  }
+}
