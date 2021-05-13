@@ -1,14 +1,16 @@
 body {
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: #E0E0E0;
 }
 #wrap {
     margin: 0 auto;
     width: 800px;
 }
-
+h1 {
+    font-size: 300%;
+}
 .button {
-    background-color: #3B2E58;
+    background-color: #092642;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -21,10 +23,10 @@ body {
   }
 
 .dark-purple-fill {
-  background-color: #3B2E58;
+  background-color: #092642;
 }
 .light-purple-fill {
-  background-color: #8661c5;
+  background-color: #235a9f;
 }
 
 .icon-small {

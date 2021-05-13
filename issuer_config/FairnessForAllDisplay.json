@@ -3,14 +3,14 @@
     "locale": "en-US",
     "card": {
       "title": "Fairness For All",
-      "issuedBy": "NHS",
-      "backgroundColor": "#000000",
+      "issuedBy": "Fintrust",
+      "backgroundColor": "#092642",
       "textColor": "#ffffff",
       "logo": {
-        "uri": "https://didcustomerplayground.blob.core.windows.net/public/VerifiedCredentialExpert_icon.png",
-        "description": "Verified Credential Expert Logo"
+        "uri": "https://fintrust.blob.core.windows.net/public/FairnessForAllLogo.png",
+        "description": "Fairness For All"
       },
-      "description": "Use your verified credential to prove to anyone that you know all about verifiable credentials."
+      "description": "Use your verified credential to share details about your vulnerabilities."
     },
     "consent": {
       "title": "Do you want to get your Verified Credential?",
