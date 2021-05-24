@@ -19,7 +19,7 @@ jobs:
         docker login fintrust.azurecr.io -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: docker build
       run: |
-        docker build . -t fintrust.azurecr.io/fintrust-vc-verifier:latest
+        docker build . -t fintrust.azurecr.io/fintrust-vc-issuer:latest
     - name: docker push
       run: |
-        docker push fintrust.azurecr.io/fintrust-vc-verifier:latest
+        docker push fintrust.azurecr.io/fintrust-vc-issuer:latest
