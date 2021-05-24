@@ -1,5 +1,7 @@
 # Fintrust Verifiable Credentials Issuer Website
 
+[![Docker Builds](https://github.com/NewcastleRSE/fintrust-vc-issuer/actions/workflows/docker.yml/badge.svg)](https://github.com/NewcastleRSE/fintrust-vc-issuer/actions/workflows/docker.yml)
+
 This repository contains a sample website written in NodeJS that issues a verifiable credential. All code for the website is contained in `app.js`. Essentially, this website does two things:
 
 1. It generates a QR code and displays it in a browser.
