@@ -1,26 +1,23 @@
+# Fintrust Verifiable Credentials Issuer Website
 
-
-# Verifiable Credentials Issuer Website
-
-This folder contains a sample website written in NodeJS that issues a verifiable credential. All code for the website is contained in `app.js`. Essentially, this website does two things:
+This repository contains a sample website written in NodeJS that issues a verifiable credential. All code for the website is contained in `app.js`. Essentially, this website does two things:
 
 1. It generates a QR code and displays it in a browser.
 2. It generates a credential issuance request, which is sent to Microsoft Authenticator after the QR code is scanned. Authenticator then communicates with a cloud issuer service to issue the verifiable credential.
 
 See our [documentation](https://aka.ms/didfordevs) for a more detailed explanation of the credential issuance process.
 
-There are two ways to run this code sample. 
+## Using Verifiable Credentials to identify vulnerable customers in finance
 
-- Run the code as-is. The sample is set up to issue anyone a Credential Ninja Card, using a issuer in the cloud run by Microsoft. 
-- Set up your own issuer, and change the code to use that issuer to issue a verifiable credential. Our [documentation](https://aka.ms/didfordevs) describes how to set up your own issuer.
-
+This app is part of the implementation of the [Software Design Specification (SDS) Document](https://docs.google.com/document/d/1j2QFLKuDnUsdsmZphjdF2znI3LH5KEEPMwucwEcefUw/edit?usp=sharing) for the Trustworthy Digital Infrastructure for Identity Systems project, led by the Turing Institute and funded through a grant from the Bill & Melinda Gates Foundation. 
 
 ## Running the sample 
 
-Follow these steps to run the sample using a pre-configured Verified Credential Ninja card on your local machine.
+Follow these steps to run the sample using a pre-configured Verified Credential 'Fairness for All' card on your local machine.
 
 1. Clone this repository and `cd` to this `issuer` directory.
 2. Run `npm install` to install all dependencies for the issuer website.
+3. Proceed with each step below to configure and run the website.
 
 ### Installing Microsoft Authenticator.
 
@@ -53,7 +50,7 @@ Finally, you're ready to run the website on your local machine:
 node ./app.js
 ```
 
-Once the site is up and running, navigate to the site in a browser using the secure ngrok URL, like `https://2ebe3ce0095c.ngrok.io/`.
+Once the site is up and running, navigate to the site in a browser using the secure ngrok URL.
 
 ### Using the website
 
@@ -65,9 +62,12 @@ To issue a verifiable credential, run the website and navigate to the homepage. 
 
 ## Modifying the code to use your issuer
 
-If you've created your own issuer following our [documentation](https://aka.ms/didfordevs), you can edit the code to use your issuer.
+To switch the issuer (i.e. if you've created a new issuer service or want to issue a new credential type):
 
 1. In `issuer/app.js`, update the `credential` and `credentialType` values for your verifiable credential.
 2. In `issuer/issuer_config/didconfig.json`, update all values to use your Azure Key Vault instance.
 
-More instructions on using the VC SDK to issue verifiable credentials can be found in our [documentation](https://aka.ms/didfordevs).
+## Image credit links
+
+* [Handshake Icon](https://icon-icons.com/icon/handshake/78379)
+* [Bank Icon](https://icon-icons.com/icon/bank/78392)
