@@ -17,9 +17,9 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.ARC_SECRET }}  
       run: |
         docker login fintrust.azurecr.io -u $DOCKER_USER -p $DOCKER_PASSWORD
-    - name: docker build botman
+    - name: docker build
       run: |
-        docker build -t fintrust.azurecr.io/fintrust-vc-verifier:latest
+        docker build . -t fintrust.azurecr.io/fintrust-vc-verifier:latest
     - name: docker push
       run: |
         docker push fintrust.azurecr.io/fintrust-vc-verifier:latest
