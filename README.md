@@ -10,7 +10,7 @@ This repository contains a sample website written in NodeJS that issues a verifi
 See our [documentation](https://aka.ms/didfordevs) for a more detailed explanation of the credential issuance process.
 
 
-## Running the sample 
+## Getting Started: Running the sample 
 
 Follow these steps to run the sample using a pre-configured Verified Credential 'Fairness for All' card on your local machine.
 
@@ -59,12 +59,14 @@ To issue a verifiable credential, run the website and navigate to the homepage. 
 2. In Authenticator, add an account and choose **Other account**. Scan the QR code.
 3. Follow the instructions to receive your verifiable credential.
 
+
 ## Modifying the code to use your issuer
 
 To switch the issuer (i.e. if you've created a new issuer service or want to issue a new credential type):
 
 1. In `issuer/app.js`, update the `credential` and `credentialType` values for your verifiable credential.
 2. In `issuer/issuer_config/didconfig.json`, update all values to use your Azure Key Vault instance.
+
 
 ## Image credit links
 
@@ -79,15 +81,15 @@ Dr Kovila Coopamootoo, Newcastle University ([kovila.coopamootoo@newcastle.ac.uk
 Prof. Aad van Moorsel, Newcastle University ([aad.vanmoorsel@newcastle.ac.uk](aad.vanmoorsel@newcastle.ac.uk)) – Project Principal Investigator  
 
 ### RSE Contact
-Dr Samantha Finnigan
-RSE Team
-Newcastle University
+Dr Samantha Finnigan  
+RSE Team  
+Newcastle University  
 ([samantha.finnigan@newcastle.ac.uk](samantha.finnigan@newcastle.ac.uk))
 
 
 ## License
-Released under MIT License
-Copyright © 2022 Newcastle University
+Released under MIT License  
+Copyright © 2022 Newcastle University  
 
 
 ## Citation
