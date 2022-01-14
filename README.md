@@ -9,6 +9,7 @@ This repository contains a sample website written in NodeJS that issues a verifi
 
 See our [documentation](https://aka.ms/didfordevs) for a more detailed explanation of the credential issuance process.
 
+
 ## Using Verifiable Credentials to identify vulnerable customers in finance
 
 This app is part of the implementation of the [Software Design Specification (SDS) Document](https://docs.google.com/document/d/1j2QFLKuDnUsdsmZphjdF2znI3LH5KEEPMwucwEcefUw/edit?usp=sharing) for the Trustworthy Digital Infrastructure for Identity Systems project, led by the Turing Institute and funded through a grant from the Bill & Melinda Gates Foundation. 
@@ -73,3 +74,16 @@ To switch the issuer (i.e. if you've created a new issuer service or want to iss
 
 * [Handshake Icon](https://icon-icons.com/icon/handshake/78379)
 * [Bank Icon](https://icon-icons.com/icon/bank/78392)
+
+
+## Project Team
+Dave Horsfall, Newcastle University ([dave.horsfall@newcastle.ac.uk](mailto:dave.horsfall@newcastle.ac.uk)) - Developer
+Dr Samantha Finnigan, Newcastle University ([samantha.finnigan@newcastle.ac.uk](samantha.finnigan@newcastle.ac.uk)) – Maintainer
+Dr Kovila Coopamootoo, Newcastle University ([kovila.coopamootoo@newcastle.ac.uk](kovila.coopamootoo@newcastle.ac.uk)) - Project Co-Investigator
+Prof. Aad van Moorsel, Newcastle University ([aad.vanmoorsel@newcastle.ac.uk](aad.vanmoorsel@newcastle.ac.uk)) – Project Principal Investigator
+
+### RSE Contact
+Dr Samantha Finnigan
+RSE Team
+Newcastle University
+([samantha.finnigan@newcastle.ac.uk](samantha.finnigan@newcastle.ac.uk))
