@@ -109,4 +109,4 @@ Please cite the associated papers for this work if you use this code:
 
 ## Acknowledgements
 
-This app is part of the implementation of the [Software Design Specification (SDS) Document](https://docs.google.com/document/d/1j2QFLKuDnUsdsmZphjdF2znI3LH5KEEPMwucwEcefUw/edit?usp=sharing) for the Trustworthy Digital Infrastructure for Identity Systems project, led by the Turing Institute and funded through a grant from the Bill & Melinda Gates Foundation [INV-001309](https://www.gatesfoundation.org/about/committed-grants/2019/12/INV001309). 
+This app is part of the implementation of the [Software Design Specification (SDS) Document](https://fintrustresearch.com/assets/pdf/%5BSDS%5D%20Trustworthy%20Digital%20Infrastructure%20for%20Identity%20Systems.pdf) for the Trustworthy Digital Infrastructure for Identity Systems project, led by the Turing Institute and funded through a grant from the Bill & Melinda Gates Foundation [INV-001309](https://www.gatesfoundation.org/about/committed-grants/2019/12/INV001309). 
