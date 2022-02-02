@@ -11,6 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    
+    - uses: microsoft/variable-substitution@v1 
+      with:
+        files: 'didconfig.json'
+      env: 
+        azTenantId: ${{ secrets.DID_AZTENANTID }}
+        azClientId: ${{ secrets.DID_AZCLIENTID }}
+        azClientSecret: ${{ secrets.DID_AZCLIENTSECRET }}
+        kvVaultUri: ${{ secrets.DID_KVVAULTURI }}
+        kvSigningKeyId: ${{ secrets.DID_KVSIGNINGKEYID }}
+        kvRemoteSigningKeyId: ${{ secrets.DID_KVREMOTESIGNINGKEYID }}
+        did: ${{ secrets.DID_DID }}
+        
     - name: docker login
       env:
         DOCKER_USER: ${{ secrets.ARC_USERNAME }}   
