@@ -112,4 +112,5 @@ dist
 
 # Leave this out for now
 package-lock.json
+didconfig.json
 
